@@ -299,6 +299,11 @@ gap: 24px;
         border: 1px solid var(--seventh-color)
 }
 
+.button:hover,
+.button:focus {
+    border: 1px solid transparent;
+    border: 1px solid var(--seventh-color);
+}
 .sec-button {
     color: var(--sixth-color);
     background-color: var(--second-color);
@@ -346,11 +351,6 @@ gap: 24px;
         color: var(--third-color);
 }
 
-.main-button:hover,
-.main-button:focus{
-        border: 1px solid transparent;
-        border: 1px solid var(--seventh-color);
-}
 /* =================================== /MAIN PORTFOLIO ==================================== */
 /* =================================== FOOTER ============================================= */
 .logo-first{
