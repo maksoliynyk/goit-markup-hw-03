@@ -46,6 +46,9 @@ img {
     display: block;
 }
 
+.section-studio{
+    padding: 120px 0 ;
+}
 .section {
 padding: 96px 0 120px
 }
@@ -289,6 +292,7 @@ gap: 24px;
 .main-button {
             color: var(--fourth-color);
             background-color: var(--fifth-color);
+            border: 1px solid var(--seventh-color)
 }
 .button{
     font-family: 'Roboto', sans-serif;
@@ -304,6 +308,7 @@ gap: 24px;
 .second-button {
         color: var(--sixth-color);
         background-color: var(--second-color);
+        border: 1px solid var(--seventh-color)
 }
 .buttons {
     display: flex;
@@ -322,7 +327,7 @@ gap: 24px;
 }
  
 .services-item {
-    width: calc(100% - 48px)/3;
+    width: calc((100% - 48px)/3);
 }
 
 .services-div {
@@ -371,7 +376,8 @@ gap: 24px;
 }
 
 .footer-logo {
-margin-bottom: 16px
+margin-bottom: 16px;
+display: inline-block;
 }
 
 .logo-text{
