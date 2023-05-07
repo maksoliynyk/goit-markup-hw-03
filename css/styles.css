@@ -46,9 +46,7 @@ img {
     display: block;
 }
 
-.section-studio{
-    padding: 120px 0 ;
-}
+
 .section {
 padding: 96px 0 120px
 }
@@ -70,10 +68,7 @@ padding: 96px 0 120px
 }
 
 .page-header {
-    display: flex;
-    align-items: center;
     border-bottom: 1px solid var(--seventh-color);
-    padding: 24px 24px;
 }
 
 .page-header-container {
@@ -88,7 +83,6 @@ padding: 96px 0 120px
 .contact-list {
     display: flex;
     align-items: center;
-    margin-left: 332px;
     gap: 40px;
 }
 
@@ -106,6 +100,7 @@ padding: 96px 0 120px
         line-height: 1.5;
         letter-spacing: 0.02em;
         padding: 24px 0;
+        display: block;
 }
 
 .menu-nav:hover,
@@ -117,7 +112,8 @@ padding: 96px 0 120px
 }
 
 .contact{
-    font-style: normal
+    font-style: normal;
+    margin-left: auto;
 }
 
 .contact-list-item:hover,
@@ -140,13 +136,6 @@ padding: 96px 0 120px
     padding-bottom: 188px;
 }
 
-.first-sect-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 48px;
-}
-
 .first-h {
     max-width: 496px;
     height: 120px;
@@ -156,6 +145,7 @@ padding: 96px 0 120px
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--fourth-color);
+    margin: 0 auto 48px;
 }
 
 .order {
@@ -171,6 +161,8 @@ font-family: 'Roboto', sans-serif;
     height: 56px;
     border-radius: 4px;
     border: none;
+    display: block;
+    margin: 0 auto;
 }
 
 .order:hover,
@@ -187,17 +179,17 @@ font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     letter-spacing: 0.02em;
     color: var(--first-color);
-    margin-bottom: 72px
+    margin-bottom: 72px;
+}
+
+.hidden {
+    visibility: hidden
 }
 
 .advantages-item {
     width: calc((100% - 72px) / 4)
 }
-.second-sect-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 .advantages {
     display: flex;
     gap: 24px;
@@ -217,16 +209,17 @@ font-family: 'Roboto', sans-serif;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--third-color);
+        margin-bottom: 120px;
 }
 /* =================================== /MAIN STUDIO 2 ====================================== */
 /* =================================== MAIN STUDIO 3 ======================================= */
 .third-sect-container{
-display: flex;
-justify-content: center;
-flex-direction: column;
 gap: 72px;
 }
 
+.third-sect {
+    padding-bottom: 120px;
+}
 .photos {
     display: flex;
     gap: 24px;
@@ -239,6 +232,7 @@ gap: 72px;
 /* =================================== MAIN STUDIO 4 ======================================= */
 .forth-sect {
     background-color: var(--second-color);
+    padding: 120px 0;
 }
 
 .forth-sect-container {
@@ -256,15 +250,8 @@ gap: 24px;
 
 .inf-work{
     background-color: var(--fourth-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: calc(100% - 72px);
+    width: calc((100% - 72px)/4);
     border-radius: 0px 0px 4px 4px;
-}
-.photo-studio {
-    margin-bottom: 32px;
 }
 
 .worker{
@@ -289,12 +276,12 @@ gap: 24px;
 }
 /* =================================== /MAIN STUDIO 4 ====================================== */
 /* =================================== MAIN PORTFOLIO ====================================== */
-.button {
+.main-button {
             color: var(--fourth-color);
             background-color: var(--fifth-color);
             border: 1px solid var(--seventh-color)
 }
-.main-button{
+.button{
     font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
@@ -306,12 +293,15 @@ gap: 24px;
         border: 1px solid var(--seventh-color)
 }
 
+.sec-button {
+    color: var(--sixth-color);
+    background-color: var(--second-color);
+}
 
 .buttons {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-top: 96px;
     margin-bottom: 72px
 }
 
@@ -333,9 +323,6 @@ gap: 24px;
     border-top: none;
     margin-bottom: 8px
 }
-.photo-portfolio {
-    margin-bottom: 32px;
-}
 
 .picture-name {
         font-weight: 500;
@@ -343,7 +330,6 @@ gap: 24px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--first-color);
-        margin-bottom: 8px;
 }
 
 .picture-text {
@@ -351,7 +337,6 @@ gap: 24px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--third-color);
-        margin-bottom: 32px;
 }
 
 .main-button:hover,
@@ -378,10 +363,10 @@ display: inline-block;
 }
 
 .logo-text{
+        width: 264px;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--second-color);
-        padding-top: 16px;
 }
 /* =================================== /FOOTER ============================================ */
