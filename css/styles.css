@@ -1,0 +1,347 @@
+/* ================================= MAIN SETTINGS ======================================== */
+:root {
+    --main-font-family: "Roboto", sans-serif;
+    --secont-font-family: "Raleway", sans-serif;
+    --first-color: #2e2f42;
+    --second-color: #f4f4fd;
+    --third-color: #434455;
+    --fourth-color: #ffffff;
+    --fifth-color: #404bbf;
+    --sixth-color: #4d5ae5;
+    --seventh-color: #E7E9FC;
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    color: var(--third-color);
+    background-color: var(--fourth-color);
+}
+
+h1,h2,h3,h4,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/* ================================== /MAIN SETTINGS ====================================== */
+/* =================================== HEADER ============================================= */
+.logo {
+    font-family: 'Raleway',sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color:var(--sixth-color);
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+}
+.page-nav {
+    display: flex;
+    align-items: center;
+    column-gap: 76px;
+}
+
+.contact-list {
+    display: flex;
+    align-items: center;
+    margin-left: 332px;
+    gap: 40px;
+}
+
+.menu {
+    display:flex;
+    align-items: center;
+    gap: 40px;
+}
+.logo-sec {
+    color:var(--second-color);
+}
+.menu-nav {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em
+}
+
+.menu-nav:hover,
+.menu-nav:focus{
+    color:var(--fifth-color);
+}
+.menu-nav {
+    color:var(--first-color);
+}
+
+.contact{
+    font-style: normal
+}
+
+.contact-list-item:hover,
+.contact-list-item:focus{
+    color:var(--fifth-color);
+}
+
+.contact-list-item{
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--third-color);
+}
+/* =================================== /HEADER ============================================ */
+/* =================================== MAIN STUDIO 1 ======================================= */
+.first-sect {
+    background-color: var(--first-color);
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
+.first-sect-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.first-h {
+    width: 496px;
+    height: 120px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--fourth-color);
+}
+
+.order {
+font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--fourth-color);
+    background: var(--sixth-color);
+    cursor: pointer;
+    padding: 16px 32px;
+}
+
+.order:hover,
+.order:focus{
+    background-color: var(--fifth-color)
+}
+/* =================================== /MAIN STUDIO 1 ====================================== */
+/* =================================== MAIN STUDIO 2 ======================================= */
+.second-h {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color: var(--first-color);
+}
+
+.second-sect-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.advantages {
+    display: flex;
+    gap: 24px;
+}
+
+.list-advantages{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--first-color);
+}
+
+.list-advantages-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--third-color);
+}
+/* =================================== /MAIN STUDIO 2 ====================================== */
+/* =================================== MAIN STUDIO 3 ======================================= */
+.third-sect-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+gap: 72px;
+}
+
+.photos {
+    display: flex;
+    gap: 24px;
+}
+/* =================================== /MAIN STUDIO 3 ====================================== */
+/* =================================== MAIN STUDIO 4 ======================================= */
+.forth-sect {
+    background-color: var(--second-color);
+}
+
+.forth-sect-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.employeers {
+display: flex;
+justify-content: center;
+column-gap: 24px;
+}
+
+.inf-work{
+    background-color: var(--fourth-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photo-studio {
+    margin-bottom: 32px;
+}
+.name-worker {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--first-color);
+        margin-bottom: 8px;
+}
+
+.position {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:var(--third-color);
+        margin-bottom: 32px;
+}
+/* =================================== /MAIN STUDIO 4 ====================================== */
+/* =================================== MAIN PORTFOLIO ====================================== */
+.main-button {
+    color: var(--fourth-color);
+    background-color: var(--fifth-color);
+}
+.button{
+    font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        padding: 12px 24px;
+}
+
+.second-button {
+        color: var(--sixth-color);
+        background-color: var(--second-color);
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 96px;
+    padding-bottom: 72px;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    border: lpx solid var(--seventh-color);
+}
+ 
+.photo-portfolio {
+    margin-bottom: 32px;
+}
+
+.picture-name {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--first-color);
+        margin-bottom: 8px;
+}
+
+.picture-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--third-color);
+        margin-bottom: 32px;
+}
+
+.button:hover,
+.button:focus{
+    color: var(--fourth-color);
+    background-color: var(--fifth-color);
+}
+/* =================================== /MAIN PORTFOLIO ==================================== */
+/* =================================== FOOTER ============================================= */
+.logo-first{
+    color: var(--first-color);
+}
+
+.footer-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.last-step{
+    background-color: var(--first-color);
+}
+
+.logo-text{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--second-color);
+        padding-top: 16px;
+}
+/* =================================== /FOOTER ============================================ */
