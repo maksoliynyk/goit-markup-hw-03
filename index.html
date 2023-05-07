@@ -7,6 +7,7 @@
     <title>Webstudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
@@ -15,7 +16,7 @@
     <header class="page-header">
         <div class="container page-header-container">
             <nav class="page-nav">
-                <a class="logo link" href="./index.html">Web<span class="logo-first link">Studio</span></a>
+                <a class="header-logo logo link" href="./index.html">Web<span class="logo-first link">Studio</span></a>
                 <ul class="menu list">
                     <li><a class="menu-nav link" href="./index.html">Studio</a></li>
                     <li><a class="menu-nav link" href="./portfolio.html">Portfolio</a></li>
@@ -41,22 +42,22 @@
             <div class="container second-sect-container">
                 <h2 hidden class="second-h">skills</h2>
                 <ul class="advantages list">
-                    <li>
+                    <li class="advantages-item">
                         <h3 class="list-advantages">Strategy</h3>
                         <p class="list-advantages-text">Our goal is to identify the business problem to walk away with the perfect and
                             creative solution.</p>
                     </li>
-                    <li>
+                    <li class="advantages-item">
                         <h3 class="list-advantages">Punctuality</h3>
                         <p class="list-advantages-text">Bring the key message to the brand's audience for the best price within the
                             shortest possible time.</p>
                     </li>
-                    <li>
+                    <li class="advantages-item">
                         <h3 class="list-advantages">Diligence</h3>
                         <p class="list-advantages-text">Research and confirm brands that present the strongest digital growth
                             opportunities and minimize risk.</p>
                     </li>
-                    <li>
+                    <li class="advantages-item">
                         <h3 class="list-advantages">Technologies</h3>
                         <p class="list-advantages-text">Design practice focused on digital experiences. We bring forth a deep passion
                             for problem-solving.</p>
@@ -68,9 +69,9 @@
             <div class="container third-sect-container">
                 <h2 class="second-h">What are we doing</h2>
                 <ul class="photos list">
-                    <li><img src="./images/Studio/img.jpg" alt="computer" width="360" height="300"></li>
-                    <li><img src="./images/Studio/img2.jpg" alt="mobile phone" width="360" height="300"></li>
-                    <li><img src="./images/Studio/img3.jpg" alt="mobile phone" width="360" height="300"></li>
+                    <li class="first-photos-studio"><img src="./images/Studio/img.jpg" alt="computer" width="360" height="300"></li>
+                    <li class="first-photos-studio"><img src="./images/Studio/img2.jpg" alt="mobile phone" width="360" height="300"></li>
+                    <li class="first-photos-studio"><img src="./images/Studio/img3.jpg" alt="mobile phone" width="360" height="300"></li>
                 </ul>
             </div>
         </section>
@@ -80,31 +81,39 @@
                 <ul class="employeers list">
                     <li class="inf-work">
                         <img class="photo-studio" src="./images/Studio/img4.jpg" alt="associate" width="264" height="260">
-                        <h3 class="name-worker">Mark Guerrero</h3>
-                        <p class="position">Product Designer</p>
+                        <div class="worker">
+                            <h3 class="name-worker">Mark Guerrero</h3>
+                            <p class="position">Product Designer</p>
+                        </div>
                     </li>
                     <li class="inf-work">
                         <img class="photo-studio" src="./images/Studio/img5.jpg" alt="associate" width="264" height="260">
-                        <h3 class="name-worker">Tom Ford</h3>
-                        <p class="position">Frontend Developer</p>
+                        <div class="worker">
+                            <h3 class="name-worker">Tom Ford</h3>
+                            <p class="position">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="inf-work">
                         <img class="photo-studio" src="./images/Studio/img6.jpg" alt="associate" width="264" height="260">
-                        <h3 class="name-worker">Camila Garcia</h3>
-                        <p class="position">Marketing</p>
+                        <div class="worker">
+                            <h3 class="name-worker">Camila Garcia</h3>
+                            <p class="position">Marketing</p>
+                        </div>
                     </li>
                     <li class="inf-work">
                         <img class="photo-studio" src="./images/Studio/img7.jpg" alt="associate" width="264" height="260">
-                        <h3 class="name-worker">Daniel Wilson</h3>
-                        <p class="position">UI Designer</p>
+                        <div class="worker">
+                            <h3 class="name-worker">Daniel Wilson</h3>
+                            <p class="position">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
         </section>
     </main>
     <footer class="last-step">
-        <div class="container footer-container">
-            <a class="logo link" href="./index.html">Web<span class="logo-sec link">Studio</span></a>
+        <div class="container">
+            <a class="footer-logo logo link" href="./index.html">Web<span class="logo-sec link">Studio</span></a>
             <p class="logo-text">Increase the flow of customers and sales for your business with digital marketing & growth
                 solutions.</p>
         </div>

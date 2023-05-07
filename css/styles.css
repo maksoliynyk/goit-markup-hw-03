@@ -15,6 +15,7 @@
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 15px;
 }
 
 .list {
@@ -46,12 +47,15 @@ img {
 }
 
 .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+padding: 96px 0 120px
 }
 
 /* ================================== /MAIN SETTINGS ====================================== */
 /* =================================== HEADER ============================================= */
+.header-logo {
+            margin-right: 76px;
+}
+
 .logo {
     font-family: 'Raleway',sans-serif;
         font-weight: 800;
@@ -65,8 +69,8 @@ img {
 .page-header {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    border-bottom: 1px solid var(--seventh-color);
+    padding: 24px 24px;
 }
 
 .page-header-container {
@@ -76,7 +80,6 @@ img {
 .page-nav {
     display: flex;
     align-items: center;
-    column-gap: 76px;
 }
 
 .contact-list {
@@ -98,7 +101,8 @@ img {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.02em
+        letter-spacing: 0.02em;
+        padding: 24px 0;
 }
 
 .menu-nav:hover,
@@ -141,7 +145,7 @@ img {
 }
 
 .first-h {
-    width: 496px;
+    max-width: 496px;
     height: 120px;
     font-weight: 700;
     font-size: 56px;
@@ -160,7 +164,10 @@ font-family: 'Roboto', sans-serif;
     color: var(--fourth-color);
     background: var(--sixth-color);
     cursor: pointer;
-    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
 }
 
 .order:hover,
@@ -177,8 +184,12 @@ font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     letter-spacing: 0.02em;
     color: var(--first-color);
+    margin-bottom: 72px
 }
 
+.advantages-item {
+    width: calc((100% - 72px) / 4)
+}
 .second-sect-container {
     display: flex;
     flex-direction: column;
@@ -195,6 +206,7 @@ font-family: 'Roboto', sans-serif;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--first-color);
+        margin-bottom: 8px;
 }
 
 .list-advantages-text {
@@ -216,6 +228,10 @@ gap: 72px;
     display: flex;
     gap: 24px;
 }
+
+.first-photos-studio {
+    width: calc(100% - 48px);
+}
 /* =================================== /MAIN STUDIO 3 ====================================== */
 /* =================================== MAIN STUDIO 4 ======================================= */
 .forth-sect {
@@ -232,7 +248,7 @@ gap: 72px;
 .employeers {
 display: flex;
 justify-content: center;
-column-gap: 24px;
+gap: 24px;
 }
 
 .inf-work{
@@ -241,9 +257,15 @@ column-gap: 24px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: calc(100% - 72px);
+    border-radius: 0px 0px 4px 4px;
 }
 .photo-studio {
     margin-bottom: 32px;
+}
+
+.worker{
+    padding: 32px 16px;
 }
 .name-worker {
         font-weight: 500;
@@ -251,6 +273,7 @@ column-gap: 24px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--first-color);
+        text-align: center;
         margin-bottom: 8px;
 }
 
@@ -259,13 +282,13 @@ column-gap: 24px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:var(--third-color);
-        margin-bottom: 32px;
+        text-align: center;
 }
 /* =================================== /MAIN STUDIO 4 ====================================== */
 /* =================================== MAIN PORTFOLIO ====================================== */
 .main-button {
-    color: var(--fourth-color);
-    background-color: var(--fifth-color);
+            color: var(--fourth-color);
+            background-color: var(--fifth-color);
 }
 .button{
     font-family: 'Roboto', sans-serif;
@@ -275,6 +298,7 @@ column-gap: 24px;
         letter-spacing: 0.04em;
         cursor: pointer;
         padding: 12px 24px;
+        border-radius: 4px;
 }
 
 .second-button {
@@ -285,8 +309,8 @@ column-gap: 24px;
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding-top: 96px;
-    padding-bottom: 72px;
+    margin-top: 96px;
+    margin-bottom: 72px
 }
 
 .services {
@@ -294,9 +318,19 @@ column-gap: 24px;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
-    border: lpx solid var(--seventh-color);
+    row-gap: 48px;
 }
  
+.services-item {
+    width: calc(100% - 48px)/3;
+}
+
+.services-div {
+    padding: 32px 16px;
+    border: 1px solid var(--seventh-color);
+    border-top: none;
+    margin-bottom: 8px
+}
 .photo-portfolio {
     margin-bottom: 32px;
 }
@@ -322,6 +356,7 @@ column-gap: 24px;
 .button:focus{
     color: var(--fourth-color);
     background-color: var(--fifth-color);
+    border: 1px solid transparent;
 }
 /* =================================== /MAIN PORTFOLIO ==================================== */
 /* =================================== FOOTER ============================================= */
@@ -329,12 +364,14 @@ column-gap: 24px;
     color: var(--first-color);
 }
 
-.footer-container {
+.last-step{
+    background-color: var(--first-color);
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.last-step{
-    background-color: var(--first-color);
+
+.footer-logo {
+margin-bottom: 16px
 }
 
 .logo-text{
