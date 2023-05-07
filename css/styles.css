@@ -299,8 +299,8 @@ gap: 24px;
         border: 1px solid var(--seventh-color)
 }
 
-.button:hover,
-.button:focus {
+.button-function:hover,
+.button-function:focus {
     border: 1px solid transparent;
     border: 1px solid var(--seventh-color);
 }
