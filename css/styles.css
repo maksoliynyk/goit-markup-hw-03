@@ -302,7 +302,6 @@ gap: 24px;
 .button-function:hover,
 .button-function:focus {
     border: 1px solid transparent;
-    border: 1px solid var(--seventh-color);
 }
 .sec-button {
     color: var(--sixth-color);
