@@ -54,7 +54,7 @@ padding: 96px 0 120px
 /* ================================== /MAIN SETTINGS ====================================== */
 /* =================================== HEADER ============================================= */
 .header-logo {
-            margin-right: 76px;
+ margin-right: 76px;
 }
 
 .logo {
@@ -188,8 +188,8 @@ font-family: 'Roboto', sans-serif;
     padding: 120px 0;
 }
 
-.hidden {
-    visibility: hidden
+.hide-h {
+    opacity: 0;
 }
 
 .advantages-item {
@@ -215,7 +215,6 @@ font-family: 'Roboto', sans-serif;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--third-color);
-        margin-bottom: 120px;
 }
 /* =================================== /MAIN STUDIO 2 ====================================== */
 /* =================================== MAIN STUDIO 3 ======================================= */
@@ -239,13 +238,6 @@ gap: 72px;
 .forth-sect {
     background-color: var(--second-color);
     padding: 120px 0;
-}
-
-.forth-sect-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 72px;
 }
 
 .employeers {
@@ -326,7 +318,6 @@ gap: 24px;
     padding: 32px 16px;
     border: 1px solid var(--seventh-color);
     border-top: none;
-    margin-bottom: 8px
 }
 
 .picture-name {
