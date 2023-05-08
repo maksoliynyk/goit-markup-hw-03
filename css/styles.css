@@ -51,6 +51,18 @@ img {
 padding: 96px 0 120px
 }
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 /* ================================== /MAIN SETTINGS ====================================== */
 /* =================================== HEADER ============================================= */
 .header-logo {
@@ -186,10 +198,6 @@ font-family: 'Roboto', sans-serif;
 
 .second-sect {
     padding: 120px 0;
-}
-
-.hide-h {
-    opacity: 0;
 }
 
 .advantages-item {
